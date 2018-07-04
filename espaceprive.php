@@ -4,7 +4,7 @@
 /* FORMULAIRE LOGIN  ===================================================== */ ?>
   <section>
     <h2>Connexion à l'espace privé</h2>
-    <form action="" method="POST" name="form_login" action="login-form.php" >
+    <form  method="POST" name="form_login" action="inc/login-form.inc.php">
 
       <p><strong><label for="login" >Login *</label></strong>      <!-- PSEUDO -->
           <input type="text" maxlength=20 required

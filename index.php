@@ -3,7 +3,9 @@
 <!-- ENTETE HTML =============================================================== --><?php
     include("inc/entete.inc.php");
     entete("NFA083 CF2 : Réseaux"); /* pour le title et le h1 */ 
-    include("inc/session.inc.php"); ?>
+	
+// ajout temporaire 
+    if(isset($_SESSION['login'])&& !isset($_SESSION['login'])){ include("inc/session.inc.php");} ?>
 
 <!-- DIFFERENTS TYPES DE RESEAUX =============================================== -->
   <section>
