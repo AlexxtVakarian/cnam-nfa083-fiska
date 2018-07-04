@@ -9,3 +9,4 @@
     if(isset($_POST['mdp'])){
         $mdp=(string) $_POST['mdp'];
     } else {$mdp=""; }
+	header('login-recup.inc.php');

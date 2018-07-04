@@ -11,4 +11,6 @@
   while($donnees05 = $resultat05->fetch()) { 
     /* DEBUG */// echo "ok<br/>";
     $_SESSION['login']=$donnees05["user_login"];
-  } ?>
+  }
+	header('../autorisation.php');
+  ?>
